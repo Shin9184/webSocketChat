@@ -33,7 +33,7 @@ except Exception as e:
     small_font = pygame.font.Font(None, 16)
 
 class ChatClient:
-    def __init__(self, host='10.1.246.148', port=5555):
+    def __init__(self, host='<Server IP>', port=5555):
         self.host = host
         self.port = port
         self.client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
